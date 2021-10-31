@@ -24,6 +24,7 @@ contract SimpleStorage {
 
     function store2(uint256 number) public {
         favouritenumber = number;
+        
     }
 
     function retrivestored_values() public view returns (uint256) {
